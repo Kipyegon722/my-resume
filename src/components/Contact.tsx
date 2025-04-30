@@ -16,25 +16,25 @@ const Contact: React.FC = () => {
     {
       name: "LinkedIn",
       icon: <Linkedin className="h-6 w-6" />,
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/victor-kipyegon-434504177/",
       color: "bg-blue-600 hover:bg-blue-700"
     },
     {
       name: "Twitter",
       icon: <Twitter className="h-6 w-6" />,
-      href: "https://twitter.com",
+      href: "https://twitter.com/victor_k_k",
       color: "bg-sky-500 hover:bg-sky-600"
     },
     {
       name: "Instagram",
       icon: <Instagram className="h-6 w-6" />,
-      href: "https://instagram.com",
+      href: "https://instagram.com/victor_k_kigen",
       color: "bg-pink-600 hover:bg-pink-700"
     },
     {
       name: "Facebook",
       icon: <Facebook className="h-6 w-6" />,
-      href: "https://facebook.com",
+      href: "https://facebook.com/victor.yegon.98",
       color: "bg-blue-700 hover:bg-blue-800"
     }
   ];
@@ -186,7 +186,7 @@ const Contact: React.FC = () => {
               </p>
               <Button 
                 className="w-full bg-purple-600 hover:bg-purple-700 text-lg py-6"
-                onClick={() => window.open("https://forms.gle/1234567890abcdef", "_blank")}
+                onClick={() => window.open("https://forms.gle/z8hkwzf9i5ocpw1f8", "_blank")}
               >
                 Contact Form
               </Button>
