@@ -97,7 +97,7 @@ const Hero: React.FC = () => {
                 <div className="w-full h-full rounded-full bg-gray-200 overflow-hidden">
                   {/* Placeholder image - replace with actual image */}
                   <img
-                    src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1934&q=80"
+                    src="kipyegon.jpeg"
                     alt="Victor Kipyegon"
                     className="w-full h-full object-cover"
                   />
