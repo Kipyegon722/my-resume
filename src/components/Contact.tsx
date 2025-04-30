@@ -113,9 +113,9 @@ const Contact: React.FC = () => {
                         />
                       </svg>
                     </div>
-                    <div>
+                     <div>
                       <p className="text-sm text-gray-500">Email</p>
-                      <p className="text-gray-800 font-medium">victor.kipyegon@biggcreatives.cloud</p>
+                      <p className="text-gray-800 font-mediumbreak-words max-w-full overflow-hidden">victor.kipyegon@biggcreatives.cloud</p>
                     </div>
                   </div>
 
