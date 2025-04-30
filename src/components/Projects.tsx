@@ -8,19 +8,19 @@ const projects = [
   {
     title: "E-Commerce Platform",
     description: "A full-featured online store with M-Pesa integration, user authentication, and an admin dashboard built with the MERN stack.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3",
+    image: "nde.PNG",
     tags: ["React", "Node.js", "MongoDB", "Express", "Redux"]
   },
   {
     title: "Smart Chatbot Integration",
     description: "An AI-powered chatbot integrated into a client's website that handles customer queries and schedules appointments automatically.",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3",
+    image: "nde1.PNG",
     tags: ["React", "Node.js", "NLP", "API Integration"]
   },
   {
     title: "Real Estate Portal",
     description: "A property listing platform with advanced filtering, interactive maps, and a secure agent communication channel.",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3",
+    image: "nde2.PNG",
     tags: ["MongoDB", "Express", "React", "Node.js", "Google Maps API"]
   }
 ];

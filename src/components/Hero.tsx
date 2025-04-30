@@ -63,9 +63,9 @@ const Hero: React.FC = () => {
             Full-Stack Web Developer
           </p>
           <p className="text-gray-600 max-w-lg mx-auto lg:mx-0 mb-8">
-            I specialize in creating robust, scalable web applications with the MERN stack.
-            With expertise in modern JavaScript frameworks, responsive design, and API integration,
-            I build seamless digital experiences that solve real-world problems.
+          As a full-stack web developer with a focus on the MERN stack, 
+          I have a strong foundation in web development and have built cutting-edge, responsive websites. 
+          I'm passionate about solving issues with creative code to create smooth user interfaces and experiences.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Button 

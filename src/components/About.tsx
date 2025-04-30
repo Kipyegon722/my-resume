@@ -54,9 +54,9 @@ const About: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
           <div className="w-20 h-1 bg-purple-500 mx-auto mb-8"></div>
           <p className="max-w-3xl mx-auto text-gray-600 text-lg">
-            I'm a passionate full-stack web developer specialized in the MERN stack with over 5 years of experience
-            building modern, responsive web applications. My journey in web development is driven by a love for
-            creating seamless user experiences and solving complex problems through elegant code.
+          I got into web development out of pure curiosity—and quickly found myself hooked. 
+          There's something incredibly satisfying about turning ideas into real, functional websites using the MERN stack. 
+          I enjoy the challenge of solving problems through code and love crafting clean, responsive designs that feel intuitive to use. For me, it’s all about creating smooth experiences that people enjoy interacting with.
           </p>
         </motion.div>
 
