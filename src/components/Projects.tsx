@@ -8,7 +8,7 @@ const projects = [
   {
     title: "E-Commerce Platform",
     description: "A full-featured online store with M-Pesa integration, user authentication, and an admin dashboard built with the MERN stack.",
-    image: "nde.PNG",
+    image: "nde3.PNG",
     tags: ["React", "Node.js", "MongoDB", "Express", "Redux"]
   },
   {
