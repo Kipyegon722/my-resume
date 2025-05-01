@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
             </div>
             <div className="text-center sm:text-left">
               <h3 className="text-sm font-semibold text-gray-400 uppercase mb-2">Email</h3>
-              <p className="text-gray-300">victor.kipyegon@biggcreatives.cloud</p>
+              <p className="text-gray-300">info@biggcreatives.cloud</p>
             </div>
           </motion.div>
         </div>
