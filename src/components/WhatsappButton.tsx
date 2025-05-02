@@ -6,7 +6,7 @@ const WhatsappButton: React.FC = () => {
     <div className="whatsapp-btn-container">
       <a
         className="whatsapp-btn"
-        href="https://wa.me/254758663405"
+        href="https://wa.me/254758663405?text=Hey,%20interested%20na%20web%20development%20services.%20Unaweza%20saidia%3F"
         target="_blank"
         rel="noopener noreferrer"
       >
