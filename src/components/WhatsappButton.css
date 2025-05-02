@@ -1,37 +1,33 @@
-/* Styling for the WhatsApp button container */
 .whatsapp-btn-container {
     position: fixed;
     right: 30px;
-    opacity: 0;
     bottom: -50px;
     padding: 24px;
-    animation: fade-up 1000ms forwards;
-    animation-delay: 1000ms;
-}
-
-/* Animation for showing the button */
-@keyframes fade-up {
-    100% {
-        bottom: 24px;
-        opacity: 1;
+    animation: fade-up 1s forwards;
+    animation-delay: 1s;
+    z-index: 9999; /* Ensure it stays above all content */
+  }
+  
+  @keyframes fade-up {
+    to {
+      bottom: 24px;
+      opacity: 1;
     }
-}
-
-/* WhatsApp button icon */
-.whatsapp-btn-container .whatsapp-btn {
+  }
+  
+  .whatsapp-btn-container .whatsapp-btn {
     font-size: 48px;
     color: #25d366;
     display: inline-block;
-    transition: all 400ms;
-}
-
-/* WhatsApp button hover effect */
-.whatsapp-btn-container .whatsapp-btn:hover {
+    transition: transform 0.4s ease;
+    text-decoration: none;
+  }
+  
+  .whatsapp-btn-container .whatsapp-btn:hover {
     transform: scale(1.2);
-}
-
-/* Text next to the button */
-.whatsapp-btn-container span {
+  }
+  
+  .whatsapp-btn-container span {
     position: absolute;
     top: 0;
     left: 4px;
@@ -40,11 +36,12 @@
     color: #075e54;
     transform: rotateZ(20deg) translateX(10px);
     opacity: 0;
-    transition: all 400ms;
-}
-
-/* Show the text on hover */
-.whatsapp-btn-container .whatsapp-btn:hover + span {
+    transition: all 0.4s ease;
+    white-space: nowrap;
+  }
+  
+  .whatsapp-btn-container .whatsapp-btn:hover + span {
     transform: rotateZ(0deg) translateX(0px);
     opacity: 1;
-}
+  }
+  
